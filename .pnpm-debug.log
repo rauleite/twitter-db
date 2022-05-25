@@ -1,0 +1,14 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "code": "ERR_PNPM_NO_IMPORTER_MANIFEST_FOUND",
+    "err": {
+      "name": "pnpm",
+      "message": "No package.json (or package.yaml, or package.json5) was found in \"/home/raul/dev/postgrest\".",
+      "code": "ERR_PNPM_NO_IMPORTER_MANIFEST_FOUND",
+      "stack": "pnpm: No package.json (or package.yaml, or package.json5) was found in \"/home/raul/dev/postgrest\".\n    at readProjectManifest (/home/raul/.nvm/versions/node/v17.9.0/pnpm-global/5/.pnpm/pnpm@7.1.3/node_modules/pnpm/dist/pnpm.cjs:19656:13)\n    at async Object.readProjectManifestOnly (/home/raul/.nvm/versions/node/v17.9.0/pnpm-global/5/.pnpm/pnpm@7.1.3/node_modules/pnpm/dist/pnpm.cjs:19660:28)\n    at async readProjectManifestOnly (/home/raul/.nvm/versions/node/v17.9.0/pnpm-global/5/.pnpm/pnpm@7.1.3/node_modules/pnpm/dist/pnpm.cjs:43820:24)\n    at async Object.handler (/home/raul/.nvm/versions/node/v17.9.0/pnpm-global/5/.pnpm/pnpm@7.1.3/node_modules/pnpm/dist/pnpm.cjs:171931:24)\n    at async /home/raul/.nvm/versions/node/v17.9.0/pnpm-global/5/.pnpm/pnpm@7.1.3/node_modules/pnpm/dist/pnpm.cjs:176500:21\n    at async run (/home/raul/.nvm/versions/node/v17.9.0/pnpm-global/5/.pnpm/pnpm@7.1.3/node_modules/pnpm/dist/pnpm.cjs:176474:34)\n    at async runPnpm (/home/raul/.nvm/versions/node/v17.9.0/pnpm-global/5/.pnpm/pnpm@7.1.3/node_modules/pnpm/dist/pnpm.cjs:176692:5)\n    at async /home/raul/.nvm/versions/node/v17.9.0/pnpm-global/5/.pnpm/pnpm@7.1.3/node_modules/pnpm/dist/pnpm.cjs:176684:7"
+    }
+  }
+}
